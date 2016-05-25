@@ -13,7 +13,7 @@ class FirstspiderPipeline(object):
 
     def __init__(self):
         self.port = 30000
-        self.host = '172.16.2.243'
+        self.host = '127.0.0.1'
         try:
             self.client = MongoClient(self.host, self.port)
         except:
